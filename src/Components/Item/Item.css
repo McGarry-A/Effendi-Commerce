@@ -1,0 +1,12 @@
+.item-container {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.item-container .item-image {
+  height: 800px;
+  width: 465px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=Item.css.map */

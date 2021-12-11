@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    justify-content: space-between;
+
+    nav {
+        display: flex;
+        align-items: center;
+        flex:1;
+
+        .nav-list {
+            list-style: none;
+            display: flex;
+            
+
+            .nav-item {
+              margin: 0 1em;  
+              cursor: pointer;
+              font-size: 0.7em;
+            }
+        }
+
+    }
+
+    .logo-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        flex: 3;
+
+        .logo-item {
+            font-family: 'Bree Serif', serif;
+            padding: 0.2em;
+            font-size:xx-large
+            
+        }
+    }
+
+    .nav-icons {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex: 1;
+        .nav-icon-list {
+            display: flex;
+            list-style: none;
+            justify-content: end;
+
+            .nav-icon-item {
+                margin: 0 2em;
+                cursor: pointer;
+            }
+        }
+        
+    }
+}

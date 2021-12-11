@@ -1,0 +1,11 @@
+.item-container {
+    margin-top: 20px;
+    cursor: pointer;
+
+    .item-image {
+        height: 800px;
+        width: 465px;
+        object-fit: cover;
+
+    }
+}

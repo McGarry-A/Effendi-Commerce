@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mens-container {
+  margin-top: 20px;
+}
+
+.mens-container .mens-banner {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  border: 1px solid black;
+  background-color: #000;
+  z-index: -100;
+  position: relative;
+}
+
+.mens-container .mens-banner .banner-div {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.mens-container .mens-banner .banner-div .banner-heading {
+  font-size: 6em;
+  letter-spacing: 0.2em;
+  line-height: 0.8;
+}
+
+.mens-container .mens-banner .banner-div .banner-subheading {
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+.mens-container .items-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=Mens.css.map */
